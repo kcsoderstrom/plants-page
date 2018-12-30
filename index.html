@@ -58,15 +58,19 @@
       opacity: 0.5;
     }
 
-    /* TODO: isn't wrapping. */
     .plant-image-figure caption {
       color: white;
       position: absolute;
       top: 25%;
       left: 0;
       right: 0;
+      width: 100%;
+      padding-left: 10px;
+      padding-right: 10px;
+      word-wrap: break-word;
       display: none;
-      white-space: pre;
+      white-space: normal;
+      box-sizing: border-box;
     }
 
     .plant-image-figure:hover caption {
