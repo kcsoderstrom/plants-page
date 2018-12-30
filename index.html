@@ -377,7 +377,7 @@
 
           var caption = document.createElement('caption');
           var flag = getFlags(plant)[0]; // TODO: could hypothetically have multiple flags (but didn't see any)
-          caption.innerText = flag.shouldKill + '\n\n' + capitalize(plant.Common_Name) + '\n is ' + flag.reason + '.';
+          caption.innerText = flag.shouldKill + '\n\n' + capitalize(plant.Common_Name) + ' is ' + flag.reason + '.';
 
           figure.appendChild(img);
           figure.appendChild(caption);
